@@ -144,6 +144,11 @@
   <ItemGroup>
     <ClCompile Include="Source\main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\config.h" />
+    <ClInclude Include="Source\tile.h" />
+    <ClInclude Include="Source\world.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
